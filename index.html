@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Srisaran J — Computer Science Engineering Student, Python Developer, AWS Cloud & AI Enthusiast" />
+  <title>Srisaran J | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+<!-- Particle Canvas -->
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<!-- ── Navigation ── -->
+<nav>
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">SJ<span>.</span>dev</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#internship">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#achievements">Wins</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════
+     HERO
+════════════════════════════════════════ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-eyebrow reveal">Welcome to my portfolio</div>
+        <h1 class="hero-name reveal">
+          Hi, I'm<br>
+          <span class="highlight">Srisaran J</span>
+        </h1>
+        <div class="hero-roles reveal">
+          <span class="typed-text"></span><span class="typed-cursor">|</span>
+        </div>
+        <p class="hero-bio reveal">
+          I'm a passionate Computer Science Engineering student with a strong interest in Python development, Artificial Intelligence, Machine Learning, and Cloud Computing. I enjoy building innovative solutions and continuously improving my technical skills through projects, internships, and hackathons.
+        </p>
+        <div class="hero-buttons reveal">
+          <a href="#" class="btn btn-primary" data-download>
+            ⬇ Download Resume
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            🚀 View Projects
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            ✉ Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Visual -->
+      <div class="hero-visual reveal">
+        <div style="position:relative; display:inline-block;">
+          <!-- Floating icons -->
+          <div class="floating-icon" title="Python">🐍</div>
+          <div class="floating-icon" title="AWS">☁️</div>
+          <div class="floating-icon" title="AI/ML">🤖</div>
+
+          <!-- 3D Card -->
+          <div class="hero-card-3d">
+            <div class="card-face">
+              <div class="card-avatar">SJ</div>
+              <div class="card-title">Srisaran J</div>
+              <div class="card-sub">CSE Student @ CIT</div>
+              <div class="card-tags">
+                <span class="card-tag">Python</span>
+                <span class="card-tag">AWS</span>
+                <span class="card-tag">AI / ML</span>
+                <span class="card-tag">React</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     ABOUT
+════════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Who I Am</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I am currently pursuing a B.E. in Computer Science and Engineering at <strong style="color:var(--cyan)">Coimbatore Institute of Technology</strong>. I am passionate about software development and cloud technologies, and I enjoy solving real-world problems through programming.</p>
+        <p>My journey started with a Diploma in Computer Science (95%) and I've since grown into building intelligent systems using Python, TensorFlow, and AWS. I am looking for opportunities to gain industry experience and contribute to impactful projects.</p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">95%</div>
+            <div class="stat-label">Diploma Score</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">4+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">2</div>
+            <div class="stat-label">AWS Certifications</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">🥇</div>
+            <div class="stat-label">Gold Medalist</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual reveal">
+        <div class="info-row">
+          <div class="info-icon">🎓</div>
+          <div>
+            <div class="info-label">Institution</div>
+            <div class="info-value">Coimbatore Institute of Technology</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">📚</div>
+          <div>
+            <div class="info-label">Degree</div>
+            <div class="info-value">B.E. Computer Science & Engineering</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">📍</div>
+          <div>
+            <div class="info-label">Location</div>
+            <div class="info-value">Erode, Tamil Nadu, India</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">🌐</div>
+          <div>
+            <div class="info-label">Languages</div>
+            <div class="info-value">Tamil, English</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">💼</div>
+          <div>
+            <div class="info-label">Status</div>
+            <div class="info-value">Open to Internships & Opportunities</div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">✉️</div>
+          <div>
+            <div class="info-label">Email</div>
+            <div class="info-value">srisaranjs08@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     EDUCATION
+════════════════════════════════════════ -->
+<section id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Academic Background</div>
+      <h2 class="section-title">Education</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="edu-timeline">
+
+      <div class="edu-item reveal">
+        <div class="edu-dot"></div>
+        <div class="edu-card">
+          <div class="edu-badge">🎓 Current</div>
+          <div class="edu-school">Coimbatore Institute of Technology</div>
+          <div class="edu-degree">B.E. Computer Science and Engineering</div>
+          <div class="edu-meta">
+            <span>📅 2024 – 2027</span>
+            <span>CGPA: <span class="score">6.47</span></span>
+            <span>📍 Coimbatore, Tamil Nadu</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-item reveal">
+        <div class="edu-dot"></div>
+        <div class="edu-card">
+          <div class="edu-badge">🏅 Completed</div>
+          <div class="edu-school">Sakthi Polytechnic College</div>
+          <div class="edu-degree">Diploma in Computer Science and Engineering</div>
+          <div class="edu-meta">
+            <span>📅 2022 – 2024</span>
+            <span>Score: <span class="score">95%</span></span>
+            <span>🥇 Gold Medal</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SKILLS
+════════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Technical Expertise</div>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">💻</div>
+          <div class="skill-group-name">Programming</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill cyan">Python</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🌐</div>
+          <div class="skill-group-name">Web Development</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill cyan">HTML</span>
+          <span class="skill-pill cyan">CSS</span>
+          <span class="skill-pill cyan">JavaScript</span>
+          <span class="skill-pill cyan">React</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">📖</div>
+          <div class="skill-group-name">Core Subjects</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill violet">DBMS</span>
+          <span class="skill-pill violet">Operating Systems</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🧠</div>
+          <div class="skill-group-name">Libraries & Frameworks</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill cyan">TensorFlow</span>
+          <span class="skill-pill cyan">React</span>
+          <span class="skill-pill cyan">OpenCV</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">☁️</div>
+          <div class="skill-group-name">Cloud Technologies</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill cyan">AWS EC2</span>
+          <span class="skill-pill cyan">AWS S3</span>
+          <span class="skill-pill cyan">AWS IAM</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <div class="skill-group-icon">🛠</div>
+          <div class="skill-group-name">Tools</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill violet">GitHub</span>
+          <span class="skill-pill violet">VS Code</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     INTERNSHIP
+════════════════════════════════════════ -->
+<section id="internship">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Work Experience</div>
+      <h2 class="section-title">Internship</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="internship-card reveal">
+      <div class="internship-logo">🏢</div>
+      <div>
+        <div class="internship-company">Value Health Inc</div>
+        <div class="internship-role">HR Tech / Software Development Intern</div>
+        <div class="internship-desc">
+          Worked with company employees to develop a <strong style="color:var(--offwhite)">Smart Attendance Tracking System</strong> within the HRMS platform. Collaborated on software development tasks and contributed to attendance automation solutions, streamlining workforce management processes through intelligent technology integration.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PROJECTS
+════════════════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">What I've Built</div>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">📊</div>
+          <span class="project-badge">Internship</span>
+        </div>
+        <div class="project-name">Smart Attendance Evaluation in HRMS</div>
+        <p class="project-desc">Developed a Smart Attendance Tracking System for Value Health Inc's HRMS platform, automating employee attendance management and improving HR operational efficiency.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Software Development</span>
+          <span class="tech-tag">HRMS</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">👁</div>
+          <span class="project-badge">AI / IoT</span>
+        </div>
+        <div class="project-name">AI-Based Real-Time Attendance Using Face Detection & IoT</div>
+        <p class="project-desc">Built an attendance system using facial recognition and RFID-enabled ID cards to automate attendance and improve campus security. Integrated IoT hardware for real-world deployment.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">OpenCV</span>
+          <span class="tech-tag">TensorFlow</span>
+          <span class="tech-tag">IoT</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">🎨</div>
+          <span class="project-badge">Hackathon</span>
+        </div>
+        <div class="project-name">SIH 2025 — Kolam Pattern Analyzer</div>
+        <p class="project-desc">Developed a Python-based solution to analyze and recreate traditional Kolam patterns for Smart India Hackathon 2025. Selected as an Internal Finalist, demonstrating algorithmic pattern recognition.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pattern Recognition</span>
+          <span class="tech-tag">Algorithms</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">🎮</div>
+          <span class="project-badge">Full Stack</span>
+        </div>
+        <div class="project-name">Interactive Gamified Learning System</div>
+        <p class="project-desc">Created a gamified learning platform featuring quizzes, crossword puzzles, leaderboards, rewards, adaptive difficulty, and analytics — making education engaging and measurable.</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Python</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CERTIFICATIONS
+════════════════════════════════════════ -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Verified Credentials</div>
+      <h2 class="section-title">Certifications</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="certs-grid">
+
+      <!-- AWS Cloud Foundations -->
+      <div class="cert-card reveal">
+        <div class="cert-image-wrap">
+          <img src="certificates/aws_foundations.jpg" alt="AWS Academy Cloud Foundations Certificate" loading="lazy" />
+          <div class="cert-overlay"></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-issuer">AWS Academy</div>
+          <div class="cert-name">AWS Academy Cloud Foundations</div>
+          <div class="cert-meta">
+            <span class="cert-date">📅 May 29, 2023</span>
+            <a href="https://www.credly.com/go/338adR7z" target="_blank" rel="noopener" class="cert-link">Verify →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AWS Cloud Practitioner Essentials -->
+      <div class="cert-card reveal">
+        <div class="cert-image-wrap">
+          <img src="certificates/aws_cloud_practitioner.jpeg" alt="AWS Cloud Practitioner Essentials Certificate" loading="lazy" style="object-position: top;" />
+          <div class="cert-overlay"></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-issuer">AWS Training & Certification</div>
+          <div class="cert-name">AWS Cloud Practitioner Essentials</div>
+          <div class="cert-meta">
+            <span class="cert-date">📅 June 07, 2026</span>
+            <span style="color:var(--cyan); font-size:0.78rem;">✓ Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Machine Learning -->
+      <div class="cert-card reveal">
+        <div class="cert-image-wrap" style="display:flex; align-items:center; justify-content:center;">
+          <div style="text-align:center; padding:20px;">
+            <div style="font-size:4rem; margin-bottom:12px;">🤖</div>
+            <div style="font-size:0.85rem; color:#94a3b8; font-family:var(--font-mono);">Machine Learning</div>
+          </div>
+          <div class="cert-overlay"></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-issuer">Novi Tech R&D Pvt Ltd</div>
+          <div class="cert-name">Machine Learning Masterclass</div>
+          <div class="cert-meta">
+            <span class="cert-date">📅 Completed</span>
+            <span style="color:#a78bfa; font-size:0.78rem;">✓ Issued</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     ACHIEVEMENTS
+════════════════════════════════════════ -->
+<section id="achievements">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Recognition</div>
+      <h2 class="section-title">Achievements</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="achievements-grid">
+
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🏆</div>
+        <div>
+          <div class="achievement-title">Best Outgoing Student</div>
+          <div class="achievement-text">Awarded Best Outgoing Student of the Year (2023) in recognition of academic and co-curricular excellence.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🥇</div>
+        <div>
+          <div class="achievement-title">Gold Medal — Diploma CSE</div>
+          <div class="achievement-text">Gold Medal Winner in Diploma Computer Science and Engineering (2024) for topping the department with 95%.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🥇</div>
+        <div>
+          <div class="achievement-title">1st Prize — Inter College Symposium</div>
+          <div class="achievement-text">Won First Prize at an Inter College Technical Symposium, competing against teams across multiple institutions.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🚀</div>
+        <div>
+          <div class="achievement-title">SIH 2025 — Internal Finalist</div>
+          <div class="achievement-text">Selected as an Internal Finalist for Smart India Hackathon 2025 for the Kolam Pattern Recognition project.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🏅</div>
+        <div>
+          <div class="achievement-title">TechSprint'26 Finalist</div>
+          <div class="achievement-text">Finalist in TechSprint'26 organized by the Google Developer Group (GDG) on the CIT Campus.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CONTACT
+════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Get In Touch</div>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <h3>Let's build something great together</h3>
+        <p>I'm currently open to internship opportunities, collaborative projects, and any chance to learn and grow. Whether you have a question or just want to say hi, feel free to reach out!</p>
+
+        <div class="contact-items">
+          <a href="mailto:srisaranjs08@gmail.com" class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">srisaranjs08@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+919342064582" class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div>
+              <div class="contact-item-label">Phone</div>
+              <div class="contact-item-value">+91 9342064582</div>
+            </div>
+          </a>
+          <div class="contact-item" style="cursor:default;">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-value">Erode, Tamil Nadu, India</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://linkedin.com/in/srisaran-j-848714367" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+          <a href="https://github.com/Saranjs08" target="_blank" rel="noopener" class="social-link" title="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#00d4ff;">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+          </a>
+          <a href="mailto:srisaranjs08@gmail.com" class="social-link" title="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:#00d4ff;">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="contact-form" class="contact-form reveal" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="name">Your Name</label>
+          <input class="form-input" id="name" type="text" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address</label>
+          <input class="form-input" id="email" type="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="subject">Subject</label>
+          <input class="form-input" id="subject" type="text" placeholder="What's this about?" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-textarea" id="message" placeholder="Tell me what's on your mind..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+          Send Message →
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">SJ<span style="color:#7b2ff7;">.</span>dev</div>
+      <div class="footer-text">Designed & built by Srisaran J &nbsp;·&nbsp; Coimbatore, India &nbsp;·&nbsp; 2026</div>
+      <div class="footer-text" style="color:var(--cyan); font-family:var(--font-mono); font-size:0.75rem;">
+        Python · AWS · AI/ML · React
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
